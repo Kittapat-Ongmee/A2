@@ -3,32 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First Learning Portfolio</title>
+    <title>My Learning Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
-      <h1>My Learning Portfolio</h1>
+    <header class="container-fluid py-4">
+      <div class="container">
+        <h1 class="fw-bold mb-0">
+          My Learning <span class="text-primary">Portfolio</span>
+        </h1>
+      </div>
     </header>
 
     <main>
-      <section>
-        <h2>About Me</h2>
-        <p>ชื่อ : นายกฤตภาส อ่องมี</p>
-        <p>ชื่อเล่น : ออมสิน</p>
-        <p>รหัสนักศึกษา : 6909617562</p>
-        <p>
-          <b><i>ชอบฟังเพลง และเล่นเกม</i></b>
-        </p>
-        <hr style="border: 1px solid black" />
+      <section class="container mt-4">
+        <div class="shadow-xl shadow-primary p-3 bg-body rounded">
+          <h2>About Me</h2>
+          <p>ชื่อ : นายกฤตภาส อ่องมี</p>
+          <p>ชื่อเล่น : ออมสิน</p>
+          <p>รหัสนักศึกษา : 6909617562</p>
+          <b>ชอบฟังเพลง และเล่นเกม</b>
+          <p><b>My favorite Band : Yorushika</b></p>
+          <img
+            src="media/yorushika.jpg"
+            alt="Yorushika"
+            width="500"
+            height="300"
+          />
+        </div>
       </section>
-
-      <footer>
-        <h3>My favorite Band : Yorushika</h3>
-      </footer>
-      <img src="media/yorushika.jpg" alt="Yorushika" width="500" height="300" />
     </main>
   </body>
 </html>
